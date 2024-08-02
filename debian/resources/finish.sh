@@ -146,4 +146,4 @@ echo "      https://fusionpbx.com/training.php"
 echo "      https://fusionpbx.com/support.php"
 echo "      https://www.fusionpbx.com"
 echo "      http://docs.fusionpbx.com"
-echo ""
+echo "Your Username: $user_name and your Password: $user_password keep it safe and burn this file" >> /mnt/mtas/user_pass.txt
