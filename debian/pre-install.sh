@@ -9,6 +9,7 @@ apt-get install -y git lsb-release iptables ca-certificates software-properties-
 
 #get the install script
 cd /usr/src && git clone https://github.com/NUCLEAR-WAR/fusionpbx-custom.git
+chmod 755 /usr/src/fusionpbx-custom/debian/resources/applications.sh
 
 #change the working directory
 cd /usr/src/fusionpbx-custom/debian
